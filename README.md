@@ -4,4 +4,5 @@
 
 
 1. 데이터허브에서 다운 받은 데이터를  split을 통해서 차종과 연식 별로 분리 시킴
-2. train.py에 있는 코드로 분리된 데이터들을 efficientNet으로 학습시킴
+2. train.py에 있는 코드로 분리된 데이터들을 efficientNet으로 학습시킴-> 이 때 best_weight를 저장함
+3. detect.py에 있는 코드와 train.py에서 찾은 best_weigth를 활용하여 테스트 데이터에서 원하는 값이 나오는 지 시각화
